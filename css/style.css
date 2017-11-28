@@ -1,0 +1,54 @@
+body {
+  font-family: verdana, arial;
+  font-size: 0.8em;
+  background: url(bg.png);
+  color: #333;
+}
+
+h1 {
+  margin: 0; padding: 0 10px;
+  background: #BBB;
+  color: #FFF;
+  height: 27px;
+}
+h2 {
+  padding-left: 30px;
+  color: #050;
+}
+
+.content {
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid green;
+  background: #FFF;
+}
+.content p {
+  padding: 0 20px;
+}
+
+.erreur {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: -68px;
+  padding: 10px;
+  border: 1px solid #900;
+  background: #F99;
+  font-weight: bold;
+}
+.contentdl {
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  border: 1px solid cyan;
+  background: #FFF;
+}
+.contentdl form, .contentdl p {
+  padding: 0 10px;
+}
+.contentdl form {
+  padding-bottom: 10px;
+  text-align: center;
+}

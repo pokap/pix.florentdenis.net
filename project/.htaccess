@@ -1,0 +1,4 @@
+Order deny,allow # <--- order to apply the white/blacklist change
+Allow from 127.0.0.1
+Allow from ::1
+Deny from all

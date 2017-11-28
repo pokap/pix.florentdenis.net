@@ -1,0 +1,14 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+    <div class="content">
+        <h1>Pix'Pok</h1>
+        <h2>Le téléchargement a bien fonctionné !</h2>
+        <p>Vous pouvez voir la version mini si-dessous, si vous cliquez dessus vous arriverez sur la taille original.</p>
+        <p align="center"><a href="/img/{{ filename }}"><img src="/img/mini_{{ filename }}" alt="" title="Cliquez vous affichez l'original" /></a></p>
+        <p><label for="mini_img">Lien pour direct de l'image mini :</label></p>
+        <p><input id="mini_img" type="text" value="https://pix.florentdenis.net/img/mini_{{ filename }}" style="width:100%;" /></p>
+        <p><label for="origin_img">Lien pour direct de l'image original :</label></p>
+        <p><input id="origin_img" type="text" value="https://pix.florentdenis.net/img/{{ filename }}" style="width:100%;" /></p>
+    </div>
+{% endblock %}
